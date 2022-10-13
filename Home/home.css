@@ -1,0 +1,287 @@
+html
+{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+  font-family: JosefinSlab-VariableFont;
+  src: url(../Fonts/JosefinSlab-VariableFont_wght.ttf);
+}
+body
+ { 
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;    
+    line-height: 25px;
+    font-family:JosefinSlab-VariableFont;
+ }
+
+ .ContentArea
+ {
+     width: 100%;
+     background-color: #ffffff;
+ }
+/* Style the navigation menu */
+.topnav {
+    background-color: #d8d8d8;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  #myLinks {
+    color: #00212C;  
+    display: none;  
+    overflow: hidden;
+  }
+  #myLinks a {
+    color: #00212C;
+    font-weight: bold;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: #FDEE93;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+  }
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text] 
+  {
+    border-radius: 5px;
+    color: #00212C;
+    padding: 6px;
+    border: solid #0092be 2px;
+    margin: 5px 10px;
+    font-size: 17px;
+  }
+  #SearchButton
+  {
+      padding: 5px 5px;
+      font-size: 17px;
+      border: solid #00212C 2px;
+      background-color: #0092be;
+      color: #FDEE93;
+      border-radius: 5px;  
+  }
+  #SearchButton:hover
+  {
+    border: none;
+    background-color: #00212C;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    color:   #FDEE93;
+    font-size: 25px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Style the active link (or home/logo) */
+  #active {
+    background-color: #00212C;
+    font-size: 25px;
+  }
+
+  #LogoName
+  {
+    color: #00212C;
+    line-height: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #QTHLogo
+  {
+    width: 300px;
+    min-height: 300px;
+    max-height: auto;
+    border-radius: 150px;
+    margin-top: 15px;
+  }
+  #LogoInfo
+  {
+      color: #0092be;
+      text-align: center;
+      font-size: 18px;
+      margin: 5px;
+  }
+  #Line
+  {
+      display: block;
+      padding-bottom: 2px;
+      color: black;
+  }
+
+  .QuizLinks
+  { 
+      display: flex ;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #00212C;
+      text-align: left;
+      border-radius: 10px;
+      margin: 10px 8px;
+      padding: 8px 8px;
+      box-shadow: 4px 4px 5px 1px #666621;
+  }
+  #QuizLinkHead
+  {
+    width:100%;
+    display: flex;
+  }
+  #QuizImg
+  {
+      height: 150px;
+      border-radius: 15px;
+      padding-bottom: 5px;
+  }
+  #QuizLinkImg /*home.html*/
+  {
+      height: 75px;
+      border-radius: 10px;
+  }
+  #QuizLinkText
+  {
+      color: #ffffff;
+      margin-left: 10px;
+      font-size: 25px;  
+  }
+
+  .QuizLinks a
+  {
+      display: inline-block;
+      color: #ffffff;
+      font-size: 18px;
+      margin-top: 7px;
+      padding: 7px;
+      padding-right: 15px;
+      border-radius: 7px;
+      background-color: #0092be;
+  }
+  
+  .ShortLink 
+  {
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+  }
+  .ShortLink_a
+  {
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 1px #666621;
+    text-decoration: none;
+    color: #ffffff;
+    font-size:25px;
+    background-color: #00212C;
+  }
+  .LatestLink_a
+  {
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 5px 1px #666621;
+    text-decoration: none;
+    color: #ffffff;
+    font-size:25px;
+    background-color: #00212C;
+  }
+
+  .BackgroundBox
+  {
+      display: block;
+      text-align: center;
+      border-radius: 15px;
+      margin: 7px 7px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color:#FDEE93;
+  }
+  .BottomArea
+  {
+      background-color: #00212C;
+      padding: 10px 0px;
+      margin-bottom: 0px;
+  }
+  #BottomLogoText
+  {
+      text-align: start;
+      text-decoration: none;
+      font-size: 25px;
+      margin: 10px 10px;
+      color: #FDEE93;
+  }
+  #Contact
+  {
+      color:#0092be ;
+      margin: 15px;
+      font-size: 15px;
+  }
+  #Contact a
+  {
+    text-decoration: none;
+    color:#0092be ;
+    margin: 15px;
+    font-size: 15px;
+  }
+  
+ @media screen and (min-width: 350px)
+ {
+  .ContentArea
+  {
+    width: 100%;
+  }
+ }
+
+ @media screen and (min-width: 550px)
+ {
+  .ContentArea
+  {
+    margin: auto;
+    width: 80%;
+  }
+ }
+
+ @media screen and (min-width: 800px)
+ {
+  .ContentArea
+  {
+    width: 600px;
+    margin-left: 100px;
+  }
+ }
+
+ @media screen and (min-width: 1050px)
+ {
+  .ContentArea
+  {
+    width: 800px;
+    margin-left: 100px;
+  }
+  .BackgroundBox
+  {
+    margin: auto;
+    margin-top:5px;
+    margin-bottom: 5px;
+    width: 80%;
+  }
+ }
+ 
+  

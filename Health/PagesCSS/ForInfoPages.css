@@ -1,0 +1,407 @@
+html
+{
+    width: 100%;
+    height: 100%;
+}
+@font-face {
+  font-family: JosefinSlab-VariableFont;
+  src: url(../Fonts/JosefinSlab-VariableFont_wght.ttf);
+}
+body
+ { 
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    line-height: 25px;
+    font-family:JosefinSlab-VariableFont;
+ }
+ .ContentArea
+ {
+     width: 100%;
+     background-color: #ffffff;
+ }
+/* Style the navigation menu */
+.topnav {
+    background-color: #d8d8d8;
+    position: relative;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  #myLinks {
+    color: #00212C;  
+    display: none;  
+    overflow: hidden;
+  }
+  #myLinks a {
+    color: #00212C;
+    font-weight: bold;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: #FDEE93;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+  }
+  /* Style the search box inside the navigation bar */
+.topnav input[type=text] 
+  {
+    border-radius: 5px;
+    color: #00212C;
+    padding: 6px;
+    border: solid #0092be 2px;
+    margin: 5px 10px;
+    font-size: 17px;
+  }
+  #SearchButton
+  {
+      padding: 5px 5px;
+      font-size: 17px;
+      border: solid #00212C 2px;
+      background-color: #0092be;
+      color: #FDEE93;
+      border-radius: 5px;  
+  }
+  #SearchButton:hover
+  {
+    border: none;
+    background-color: #00212C;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    color:   #FDEE93;
+    font-size: 25px;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Style the active link (or home/logo) */
+  #active {
+    background-color: #00212C;
+    font-size: 25px;
+  }
+
+  #LogoName
+  {
+    color: #00212C;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+  #LogoInfo
+  {
+      color: #0092be;
+      text-align: center;
+      font-size: 20px;
+  }
+  #Line
+  {
+      display: block;
+      padding-bottom: 2px;
+      color: black;
+  }
+
+  .QuizLinks
+  { 
+      display: flex ;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: flex-start;
+      align-items: center;
+      background-color: #00212C;
+      text-align: left;
+      border-radius: 10px;
+      margin: 10px 5px;
+      padding: 8px 8px;
+  }
+  #QuizImg
+  { 
+    width: 150px;
+    min-height: 150px;
+    max-height: auto;
+    border-radius: 15px;
+    padding-bottom: 5px;
+  }
+  #QuizLinkHead
+  {
+    width:100%;
+    display: flex;
+  }
+  #QuizLinkImg /*home.html*/
+  {
+      height: 75px;
+      border-radius: 10px;
+  }
+  #QuizLinkText
+  {
+      color: #ffffff;
+      margin-left: 10px;
+      font-size: 22px;  
+  }
+
+  .QuizLinks a
+  {
+      color: #ffffff;
+      font-size: 18px;
+      margin-top: 7px;
+      padding: 7px 5px;
+      border-radius: 7px;
+      background-color: #0092be;
+  }
+
+  .BackgroundBox
+  {
+      display: block;
+      text-align: center;
+      border-radius: 15px;
+      margin: 7px 7px;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      background-color:#FDEE93;
+  }
+  #InfoHeading
+  {
+      margin: 2px;
+      text-align: center;
+      font-size: 40px;
+      line-height: 40px;
+      font-weight: bold;
+      color: #00212C;
+  }
+  #InfoText
+  {
+      margin: 2px 5px;
+      text-align: center;
+      font-size: 20px;      
+      color: #0092be;
+      font-weight: bold;
+  }
+  #SourceText
+  {
+      display: block;
+      margin-bottom:2px;
+      color: blue;
+      text-align: center;
+  }
+  
+  .ShortLink 
+  {
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+  }
+  .ShortLink_a
+  {
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size:25px;
+    background-color: #00212C;
+  }
+  .LatestLink_a
+  {
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size:25px;
+    background-color: #00212C;
+  }
+
+
+  
+  #SubInfoHeading
+  {
+      margin-top: 10px;
+      text-align: center;
+      line-height: 30px;
+      font-size: 28px;
+      font-weight: bold;
+      color: #00212C;
+  }
+  #SubInfoPoints
+  {
+    margin: 20px 10px;
+    color: #0092be;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #ThisInfoQuiz
+  {
+    text-decoration: none;
+    color: white;
+    background-color: #00212C;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 5px;
+  }
+  #Note
+  {
+      text-align: center;
+      font-weight: bold;
+      font-size: 20px;
+      color: black;
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+  .BottomArea
+  {
+      background-color: #00212C;
+      padding: 10px 0px;
+      margin-bottom: 0px;
+  }
+  #SuggestionEndBox 
+  {
+    background-color: #00212C;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 7px;
+  }
+  #SuggestionEndBox a
+  {      
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 7px;
+    text-align: left;
+    border-radius: 7px;
+    background-color: #0092be;
+  }
+  #SuggestTopic
+  {
+    margin:2px 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff ;
+  }
+  #BottomLogoText
+  {
+      text-align: start;
+      text-decoration: none;
+      font-size: 25px;
+      margin: 10px 10px;
+      color: #FDEE93;
+  }
+  #Contact
+  {
+      color:#0092be ;
+      margin: 15px;
+      font-size: 15px;
+  }
+  #Contact a
+  {
+    text-decoration: none;
+    color:#0092be ;
+    margin: 15px;
+    font-size: 15px;
+  }
+  #SourcesBottom
+  {
+      margin: 7px;
+      padding: 2px;
+      text-align: left;
+      border-radius: 10px;
+      background-color: #00212C;
+      color: #FDEE93;
+  }
+  #SourcesBottom p
+  {
+      margin: 5px;
+      text-align: left;
+      padding: 2px;
+      font-size: 25px;  
+  }
+  #SourcesBottom a
+  {
+      font-size: 18px;
+      color: #FDEE93;
+  }
+  
+  @media screen and (min-width: 350px)
+ {
+  .ContentArea
+  {
+    width: 100%;
+  }
+  .QuestionBox
+  {
+      margin: auto;
+      width: 85%;
+      margin-bottom: 50px;
+      padding-bottom: 5px;
+  }
+ }
+
+ @media screen and (min-width: 500px)
+ {
+  .ContentArea
+  {
+    margin: auto;
+    width: 80%;
+  }
+  .QuestionBox
+  {
+      margin: auto;
+      width: 75%;
+      margin-bottom: 50px;
+      padding-bottom: 5px;
+  }
+ }
+
+ @media screen and (min-width: 800px)
+ {
+  .ContentArea
+  {
+    width: 600px;
+    margin-left: 100px;
+  }
+  .QuestionBox
+  {
+      margin: auto;
+      width: 75%;
+      margin-bottom: 50px;
+      padding-bottom: 5px;
+  }
+ }
+
+ @media screen and (min-width: 1050px)
+ {
+  .ContentArea
+  {
+    width: 800px;
+    margin-left: 100px;
+  }
+  .BackgroundBox
+  {
+    margin: auto;
+    margin-top:5px;
+    margin-bottom: 5px;
+    width: 80%;
+  }
+  .QuestionBox
+  {
+      margin: auto;
+      width: 60%;
+      margin-bottom: 50px;
+      padding-bottom: 5px;
+  }
+ }

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Are You Introverted?</title>
+    <link rel="stylesheet" href="../PagesCSS/ForAllPages.css" href="../PagesJS/AreYouIntrovert.js" href="https://quiztohealth.com/UpdateLink_js/LinkUpdate.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script data-ad-client="ca-pub-5129185288036200" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel="shortcut icon" href="https://www.quiztohealth.com/favicon.ico">
+</head>
+<body>
+    <script type="text/javascript" src="../PagesJS/AreYouIntrovert.js"></script>
+    <script type="text/javascript" src="https://quiztohealth.com/UpdateLink_js/LinkUpdate.js"></script>
+   <div class="topnav" >
+    <a href="https://www.quiztohealth.com" id="active">QuizToHealth</a>
+
+    <div id="myLinks">
+        <!--
+        <div id="myLinks">
+          <input type="text" placeholder="Search a quiz...">
+          <button id="SearchButton">Search</button>
+        </div>
+         -->
+      <a href="https://quiztohealth.com">Home</a>
+      <a href="https://quiztohealth.com/Info/About_Us.html">About Us</a>     
+      <a href="https://quiztohealth.com/Info/PrivacyPolicy.html">Privacy Policy</a> 
+      <a href="https://quiztohealth.com/Info/Disclaimer.html">Disclaimer</a>  
+    </div>
+    
+    <a href="javascript:void(0);" class="icon" onclick="NavigationFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+    </div>
+
+<div class="ContentArea">        
+<form>
+
+    <div class="BackgroundBox">
+        <h2 id="InfoHeading">What does Introvert mean?</h2><br>
+        
+        <p id="InfoText">Being an Introvert means that you like to focus more on your internal feelings, moods and thoughts rather than finding external stimulation.</p><br>
+        <p id="InfoText">Being an Introvert doesn't mean that you are shy or socially anxious, it just means that you prefer spending your time alone to spending it with a group of people.</p><br>
+        <p id="InfoText">In short, it means that you feel energized when alone and drained of energy when with many people.</p>
+    </div>
+    
+    <!--AD HERE-->
+    
+    <div class="BackgroundBox">
+        <div id="Quiz">
+            <h1 id="QuizHeading">Quiz : Are you an Introvert?</h1>
+            <h3 id="InfoText">Answer a few simple questions and find out whether you are an Introvert or not.</h3>
+            <p id="Note">Note: By taking this quiz, you agree to our <a href="https://quiztohealth.com/Info/Disclaimer.html" style="color:#00212C; ">Disclaimer</a>.<br>
+                DO NOT take this quiz if you disagree.
+            </p>
+        </div>
+    </div>
+
+    <div style="padding-top: 50px;">
+
+        <div class="QuestionBox" id="Q1">
+            <div id="QNum">Q1/10 :<a style="font-weight: 100;"> Lets start simple.</a></div>
+            <p id="QuestionText">If you had to choose between staying alone at your home and going out with a group of friends, what yould you choose?</p>
+            <div>
+                <div class="Answer" id="AnswerQ1A1" onclick="SelectQ1A1()">
+                    <input class="Radio" type="radio" name="RadioQ1" id="Q1A1">
+                    <b id="AnswerText">I'd stay at home</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ1A2" onclick="SelectQ1A2()">
+                    <input class="Radio" type="radio" name="RadioQ1" id="Q1A2">
+                    <b id="AnswerText">I'd definitely go out</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ1A3" onclick="SelectQ1A3()">
+                    <input class="Radio" type="radio" name="RadioQ1" id="Q1A3">
+                    <b id="AnswerText">It depends on the group</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ1A4" onclick="SelectQ1A4()">
+                    <input class="Radio" type="radio" name="RadioQ1" id="Q1A4">
+                    <b id="AnswerText">I don't know</b>                    
+                </div>
+            </div>
+        </div>
+
+        <div class="QuestionBox">
+            <div id="QNum">Q2/10</div>
+            <p id="QuestionText">Do you feel lonely when in a crowd?</p>
+            <div>
+                <div class="Answer" id="AnswerQ2A1" onclick="SelectQ2A1()">
+                    <input class="Radio" type="radio" name="RadioQ2" id="Q2A1">
+                    <b id="AnswerText">Yes, everytime</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ2A2" onclick="SelectQ2A2()">
+                    <input class="Radio" type="radio" name="RadioQ2" id="Q2A2">
+                    <b id="AnswerText">Sometimes</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ2A3" onclick="SelectQ2A3()">
+                    <input class="Radio" type="radio" name="RadioQ2" id="Q2A3">
+                    <b id="AnswerText">No, never</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ2A4" onclick="SelectQ2A4()">
+                    <input class="Radio" type="radio" name="RadioQ2" id="Q2A4">
+                    <b id="AnswerText">How can anyone feel lonely in a crowd?</b>                    
+                </div>   
+            </div>
+        </div>
+        
+        <div class="QuestionBox">
+            <div id="QNum">Q3/10</div>
+            <p id="QuestionText">How many friends do you have that you consider are close to you?</p>
+            <div>
+                <div class="Answer" id="AnswerQ3A1" onclick="SelectQ3A1()">
+                    <input class="Radio" type="radio" name="RadioQ3" id="Q3A1">
+                    <b id="AnswerText">Not more than 5</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ3A2" onclick="SelectQ3A2()">
+                    <input class="Radio" type="radio" name="RadioQ3" id="Q3A2">
+                    <b id="AnswerText">Around 10</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ3A3" onclick="SelectQ3A3()">
+                    <input class="Radio" type="radio" name="RadioQ3" id="Q3A3">
+                    <b id="AnswerText">More than 10</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ3A4" onclick="SelectQ3A4()">
+                    <input class="Radio" type="radio" name="RadioQ3" id="Q3A4">
+                    <b id="AnswerText">I don't have friends</b>                    
+                </div>  
+            </div>
+        </div>
+        
+        <div class="QuestionBox">
+            <div id="QNum">Q4/10</div>
+            <p id="QuestionText">What makes you feel refreshed?</p>
+            <div>
+                <div class="Answer" id="AnswerQ4A1" onclick="SelectQ4A1()">
+                    <input class="Radio" type="radio" name="RadioQ4" id="Q4A1">
+                    <b id="AnswerText">Spending time alone.</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ4A2" onclick="SelectQ4A2()">
+                    <input class="Radio" type="radio" name="RadioQ4" id="Q4A2">
+                    <b id="AnswerText">Working on a hobby</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ4A3" onclick="SelectQ4A3()">
+                    <input class="Radio" type="radio" name="RadioQ4" id="Q4A3">
+                    <b id="AnswerText">Going out with friends</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ4A2" onclick="SelectQ4A4()">
+                    <input class="Radio" type="radio" name="RadioQ4" id="Q4A4">
+                    <b id="AnswerText">Spending time with a loved one</b>                    
+                </div>  
+            </div>
+        </div>
+
+        <div class="QuestionBox">
+            <div id="QNum">Q5/10</div>
+            <p id="QuestionText">What are you most likely found to be doing on a Saturday night?</p>
+            <div>
+                <div class="Answer" id="AnswerQ5A1" onclick="SelectQ5A1()">
+                    <input class="Radio" type="radio" name="RadioQ5" id="Q5A1">
+                    <b id="AnswerText">Partying with friends</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ5A2" onclick="SelectQ5A2()">
+                    <input class="Radio" type="radio" name="RadioQ5" id="Q5A2">
+                    <b id="AnswerText">Working</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ5A3" onclick="SelectQ5A3()">
+                    <input class="Radio" type="radio" name="RadioQ5" id="Q5A3">
+                    <b id="AnswerText">Watching Tv at home</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ5A4" onclick="SelectQ5A4()">
+                    <input class="Radio" type="radio" name="RadioQ5" id="Q5A4">
+                    <b id="AnswerText">Learning something new</b>                    
+                </div> 
+            </div>
+        </div>
+        
+        <div class="QuestionBox">
+            <div id="QNum">Q6/10</div>
+            <p id="QuestionText">Do you consider yourself to be a quiet person?</p>
+            <div>
+                <div class="Answer" id="AnswerQ6A1" onclick="SelectQ6A1()">
+                    <input class="Radio" type="radio" name="RadioQ6" id="Q6A1">
+                    <b id="AnswerText">Yes, I dont't speak much</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ6A2" onclick="SelectQ6A2()">
+                    <input class="Radio" type="radio" name="RadioQ6" id="Q6A2">
+                    <b id="AnswerText">Maybe</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ6A3" onclick="SelectQ6A3()">
+                    <input class="Radio" type="radio" name="RadioQ6" id="Q6A3">
+                    <b id="AnswerText">No</b>                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="QuestionBox">
+            <div id="QNum">Q7/10</div>
+            <p id="QuestionText">How often do you find yourself daydreaming?</p>
+            <div>
+                <div class="Answer" id="AnswerQ7A1" onclick="SelectQ7A1()">
+                    <input class="Radio" type="radio" name="RadioQ7" id="Q7A1">
+                    <b id="AnswerText">Very often</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ7A2" onclick="SelectQ7A2()">
+                    <input class="Radio" type="radio" name="RadioQ7" id="Q7A2">
+                    <b id="AnswerText">Sometimes</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ7A3" onclick="SelectQ7A3()">
+                    <input class="Radio" type="radio" name="RadioQ7" id="Q7A3">
+                    <b id="AnswerText">Very ralrey</b>                    
+                </div>  
+            </div>
+        </div>
+        
+        <div class="QuestionBox">
+            <div id="QNum">Q8/10</div>
+            <p id="QuestionText">Do you like being the centre of attention?</p>
+            <div>
+                <div class="Answer" id="AnswerQ8A1" onclick="SelectQ8A1()">
+                    <input class="Radio" type="radio" name="RadioQ8" id="Q8A1">
+                    <b id="AnswerText">Yes, always</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ8A2" onclick="SelectQ8A2()">
+                    <input class="Radio" type="radio" name="RadioQ8" id="Q8A2">
+                    <b id="AnswerText">It depends on the situation</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ8A3" onclick="SelectQ8A3()">
+                    <input class="Radio" type="radio" name="RadioQ8" id="Q8A3">
+                    <b id="AnswerText">No, I don't like much attention</b>                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="QuestionBox">
+            <div id="QNum">Q9/10</div>
+            <p id="QuestionText">Is it easy for you to talk to new people?</p>
+            <div>
+                <div class="Answer" id="AnswerQ9A1" onclick="SelectQ9A1()">
+                    <input class="Radio" type="radio" name="RadioQ9" id="Q9A1">
+                    <b id="AnswerText">Yeah, no big deal</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ9A2" onclick="SelectQ9A2()">
+                    <input class="Radio" type="radio" name="RadioQ9" id="Q9A2">
+                    <b id="AnswerText">Sometimes</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ9A3" onclick="SelectQ9A3()">
+                    <input class="Radio" type="radio" name="RadioQ9" id="Q9A3">
+                    <b id="AnswerText">No, its never easy</b>                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="QuestionBox">
+            <div id="QNum">Q10/10 :<a style="font-weight: 100;"> Last Question!</a>
+            </div>
+            <p id="QuestionText">How often do you start a conversation?</p>
+            <div>
+                <div class="Answer" id="AnswerQ10A1" onclick="SelectQ10A1()">
+                    <input class="Radio" type="radio" name="RadioQ10" id="Q10A1">
+                    <b id="AnswerText">I'm always first</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ10A2" onclick="SelectQ10A2()">
+                    <input class="Radio" type="radio" name="RadioQ10" id="Q10A2">
+                    <b id="AnswerText">Sometimes</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ10A3" onclick="SelectQ10A3()">
+                    <input class="Radio" type="radio" name="RadioQ10" id="Q10A3">
+                    <b id="AnswerText">It depends on the person</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ10A4" onclick="SelectQ10A4()">
+                    <input class="Radio" type="radio" name="RadioQ10" id="Q10A4">
+                    <b id="AnswerText">I rarely talk first</b>                    
+                </div>
+                <div class="Answer" id="AnswerQ10A5" onclick="SelectQ10A5()">
+                    <input class="Radio" type="radio" name="RadioQ10" id="Q10A5">
+                    <b id="AnswerText">Never</b>                    
+                </div>  
+            </div>
+        </div>
+    </div>
+<div class="FinalResult">
+    <p style="text-align: center; color: #00212C; font-size: 40px; margin: 0px;" >Result</p><br>
+    <p id="UserResult">Your Result</p>
+</div>
+
+<div class="Center">
+    <div><button type="button" id="SubmitButton" onclick="GetResult()">Get Result</button></div>
+    <div> </div>
+    <div><button type="button" id="ReTestButton" onclick="Refresh()">Restart quiz</button></div>
+</div>
+
+<div class="BackgroundBox">
+  
+        <div  id="SuggestionEndBox">
+        <p id="SuggestTopic">Quizes on other Topics</p>
+        <p style="background-color: #FDEE93; padding: 1px;"></p>        
+
+      <div class="QuizLinks" style="border: solid 2px #0092be;" onclick="DisplayTopic1Links()" >
+        <div id="QuizLinkHead" >
+        <img src="https://quiztohealth.com/WebsiteFiles/Media/CardiovascularImg.jpg" id="QuizLinkImg">
+        <p id="QuizLinkText">Cardiovascular disease</p>
+        </div>
+        <div id="CardiovascularQuizLinks" style="display:none; ">           
+            <a onclick="location.href='https:/quiztohealth.com/Health/CardiovascularDiseases/cvds_01.html'"; >What are Cardiovascular Diseases?</a>   
+        </div>
+      </div>
+
+      <div class="QuizLinks"style="border: solid 2px #0092be;"onclick="DisplayTopic2Links()" >
+        <div id="QuizLinkHead" >
+        <img src="https://quiztohealth.com/WebsiteFiles/Media/Covid19Image.jpg" id="QuizLinkImg">    
+        <p id="QuizLinkText">Covid-19</p>
+        </div>    
+        <div id="Covid19QuizLinks" style="display:none;">    
+        <a onclick="location.href='https:/quiztohealth.com/Health/Covid19/covid19_01.html';" >Covid-19 Symptoms & Spread</a>                
+        </div>
+      </div>
+    </div>
+
+    <div  id="SuggestionEndBox">
+        <p id="SuggestTopic">Our newest Quizes</p>
+        <p style="background-color: #FDEE93; padding: 1px;"></p>        
+
+        <div class="ShortLink"><a class="LatestLink_a" href="">Are you an Introvert?</a></div>
+        <div class="ShortLink"><a class="LatestLink_a" href="">Are you Bisexual?</a></div>
+
+
+    </div>
+    
+</div>
+</form>
+</div>
+
+<footer class="BottomArea">
+    <a href="https://www.quiztohealth.com" id="BottomLogoText">QuizToHealth.com</a> <br>
+    <li id="Contact"><a href="https://quiztohealth.com/Info/About_Us.html">About us</a></li>
+    <li id="Contact"><a href="https://quiztohealth.com/Info/Disclaimer.html">Disclaimer</a></li>
+    <li id="Contact"><a href="https://quiztohealth.com/Info/PrivacyPolicy.html">Privacy Policy</a></li>
+    <li id="Contact">Contact: pencilboxstudio.developer@gmail.com</li>
+</footer>
+
+
+    
+</body>
+</html>
